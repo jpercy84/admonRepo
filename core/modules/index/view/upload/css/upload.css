@@ -1,0 +1,93 @@
+/*label[for=bannerfotox]:before {
+content: url(iconocarga.png);
+margin-right: 12px;
+ width: 10px;
+  height: 10px;
+}*/
+
+@media (min-width: 320px) {
+    .footer {
+
+        background-image: url("letraslogo-320w.png");
+    }
+}
+
+@media (min-width: 480px) {
+    .footer {
+
+        background-image: url("letraslogo-480w.png");
+    }
+}
+
+
+@media (min-width: 768px) {
+    .footer {
+
+        background-image: url("letraslogo-768w.png");
+       
+    }
+}
+
+
+@media (min-width: 1200px) {
+   .footer {
+
+        background-image: url("letraslogo.png");
+    }
+}
+
+
+
+.footer {
+  background-position: center center;
+  bottom: 0px;
+  background-repeat: no-repeat;
+  width: 90%;
+  min-height: 80px;
+  position:absolute;
+    bottom:5px;
+}
+
+
+input[type="file"]#InputFile {
+     width: 0.1px;
+     height: 0.1px;
+     opacity: 0;
+     overflow: hidden;
+     position: absolute;
+     z-index: -1;
+ }
+
+ 
+
+
+
+
+ .cInputFile:hover, .cInputFile:active, input:hover+label, input:active+label {
+    background-color: #979797 !important;
+    color: #FFFFFF !important;
+    box-shadow: none !important;
+    border-color: #979797 !important;
+}
+
+.cInputFile:active, input:hover+label, input:active+label {
+    background-color: #979797 !important;
+    color: #FFFFFF !important;
+    box-shadow: none !important;
+    border-color: #979797 !important;
+}
+
+
+ .cInputFile  {
+     font-size: 14px ;
+     color: #FFFFFF !important;
+     border-radius: 2rem;
+     width: 100% !important;
+     background-color: #33C5AA !important;
+     display: inline-block;
+     transition: all .5s;
+     cursor: pointer;
+     padding: 15px 40px !important;
+     width: fit-content;
+     text-align: center;
+ }

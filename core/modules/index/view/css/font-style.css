@@ -1,0 +1,30 @@
+@font-face {
+    font-family: vwRegular;
+    src: url(./../fonts/VWText-Regular.otf);
+}
+
+@font-face {
+    font-family: vwBold;
+    src: url(./../fonts/VWText-Bold.otf);
+}
+
+@font-face {
+    font-family: vwHeadRegular;
+    src: url(./../fonts/VWHead-Regular.otf);
+}
+
+@font-face {
+    font-family: vwHeadBold;
+    src: url(./../fonts/VWHead-Bold.otf);
+}
+
+@font-face {
+    font-family: nexaBold;
+    src: url(./../fonts/Nexa\ Bold.otf);
+}
+
+@font-face {
+    font-family: nexaLight;
+    src: url(./../fonts/Nexa\ Light.otf);
+}
+

@@ -1,0 +1,131 @@
+@media (max-width: 600px) {
+
+ 	#submenu1  { 
+	  width:50%;
+	 
+	}
+	#submenu2  { 
+	  width:50%;
+	 
+	}
+	
+	.button_tablero{
+	 width:140px !important;
+	}
+	
+	#menuprincipal{
+	 display:none;
+	}
+	#operfil{
+	 display:none !important;
+	}
+	#formmenu{
+	 display:none !important;
+	}
+	#menunormal{
+	display:none !important;
+	}
+	
+	.collapse {
+	max-height:450px !important;
+	  
+	}
+	.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
+	  background-color:#E7E7E7 !important;
+	}
+	hr{
+	margin-top:10px !important;
+	margin-bottom:10px !important;
+	border-top:2px solid #eee !important; 
+	 
+	}
+	
+	.navbar-main{
+	background-color:#FFFFFF !important;
+	height:450px !important;
+	}
+	
+	.dropdown-backdrop{
+	display:none !important;
+	
+	}
+	#graficalineal{
+	width:100% !important;
+	}
+	#graficabarras{
+	width:100% !important;
+	}
+	
+	
+	.navbar-inverse .navbar-toggle {
+	  border-color: #FFFFFF !important;
+      border-width: 2px !important;
+	}
+	
+	.navbar-inverse .navbar-collapse {
+	border-color:transparent !important;
+	}
+	ul{
+	list-style: none !important;
+	}
+	a:hover{
+	text-decoration:none !important;
+	
+	}
+	
+	#espaciocontenido{
+	height:90px !important;
+	 
+	}
+	
+	
+    .col-md-7{
+        padding-right:0px !important;
+        padding-left:0px !important;
+    }
+	#contenedor{
+      width:100% !important;
+    }
+	#div_container{
+	position:absolute !important;
+	}
+	
+	#image_submenu {
+	  margin-left:0px !important;
+	}
+	#nom_submenu {
+	  left:40px !important;
+	}
+	
+	#menulateral {
+	  display:none;
+	}
+	
+	#menumovil { 
+	  margin-left:10px !important;  
+	}
+	
+	#optusuarios {
+	 display:block !important;
+	}
+	
+	#forma_pago {
+	width:158px !important;
+	  
+	}
+	#labelfpago {
+	 padding-left:148px;
+	 padding-right:40px;	  
+	}
+    #labelfpagop {
+	padding-left:148px;
+	padding-right:40px;
+	  
+	}
+	
+	
+
+}
+
+ 
+ 

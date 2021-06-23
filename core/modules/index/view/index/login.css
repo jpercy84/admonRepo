@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login__formulario {
+    width: 35vw;
+    padding-right:12px !important;
+    padding-left:12px !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .login__formulario {
+        width: 100%;
+    }
+}

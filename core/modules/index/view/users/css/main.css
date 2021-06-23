@@ -1,0 +1,105 @@
+body {
+    background-color: white;
+    padding-left: 3em;
+    padding-top: 15px;;
+}
+
+.addUser{
+    height: 50px;;
+    margin-bottom: 20px;
+}
+tr{
+    color:black;
+}
+
+th{
+    color: white;
+}
+
+thead{
+    background-color:#3AAA35;
+}
+
+.btn {
+    border: 0.5px solid rgba(16, 35, 53,0);
+}
+
+.btn:hover{
+    color: black;
+    background-color: white;
+    border: 0.5px solid black;
+}
+.btn-delete{
+    background-color: rgb(16, 35, 53);
+    color: white;
+
+}
+.btn-update{
+    background-color: #2F404F;
+    color: white;
+}
+
+.btn-view{
+    background-color: #275682;
+    color: white;
+}
+
+.newUser_btn{
+    background-color: rgb(16, 35, 53);
+    color: white;
+}
+
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr { border: 1px solid rgb(16, 35, 53); }
+	
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #000000; 
+		position: relative;
+		padding-left: 20%; 
+	}
+	
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 10px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+	
+	/*
+	Label the data
+	*/
+	td:nth-of-type(1):before { content: "EMAIL"; color: #3AAA35;}
+	td:nth-of-type(2):before { content: "NOMBRE";  color: #3AAA35; }
+	td:nth-of-type(3):before { content: "APELLIDO";  color: #3AAA35;}
+	td:nth-of-type(4):before { content: "PERFIL";  color: #3AAA35;}
+	td:nth-of-type(5):before { content: "ELIMINAR";  color: #3AAA35;}
+	td:nth-of-type(6):before { content: "ACTUALIZAR";  color: #3AAA35;}
+    td:nth-of-type(7):before { content: "REVISAR";  color: #3AAA35;}
+    
+    .table td{
+        padding-left: 7rem;
+        font-size: 1em;
+        word-wrap: break-word;
+    }
+}

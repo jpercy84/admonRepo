@@ -1,0 +1,27 @@
+.nav_title span{
+    color: #000000;
+    margin-left: 20px;;
+}
+
+.profile_info span{
+    color: white;
+    font-size: 20px;
+}
+
+.profile_info h2{
+    font-size: 15px;
+}
+
+.menu_section h3{
+    text-shadow: none;
+    font-size: 20px;
+}
+
+#site_title_img{
+  height: 45px;
+
+}
+
+#navbar_image{
+    height: 40px;
+}

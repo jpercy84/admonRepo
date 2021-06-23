@@ -1,0 +1,31 @@
+.barra_layout{
+    background-color:#FD0A00 !important;
+    color:#ffff !important;
+    border-top-left-radius: 6px !important;
+    border-top-right-radius: 6px !important;
+    padding: 6px 15px;
+    font-size:12px; height:35px;
+}
+.color_barra{
+    background-color:#FD0A00 !important;
+    color:#ffff !important;
+    border-top-left-radius: 6px !important;
+    border-top-right-radius: 6px !important;
+}
+.btn-default{
+    background-color: #fff !important;
+    border-color: #ccc !important;
+    border: 1px solid #DDDDDD !important;
+}
+
+.danger{
+    background-color: #fd0a00 !important;
+}
+
+.btn-danger{
+    background-color: #fd0a00 !important;
+}
+
+/*
+<link rel="stylesheet" type="text/css" href="core/modules/index/view/estilos/colores.css">
+*/

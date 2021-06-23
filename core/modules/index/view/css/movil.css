@@ -1,0 +1,115 @@
+@media (max-width: 600px) {
+
+ 	#submenu1  { 
+	  width:50%;
+	 
+	}
+	#submenu2  { 
+	  width:50%;
+	 
+	}
+	
+	.button_tablero{
+	 width:70px !important;
+	}
+	
+    .col-md-7{
+        padding-right:0px !important;
+        padding-left:0px !important;
+    }
+	#contenedor{
+      width:100% !important;
+    }
+	#div_container{
+	position:absolute !important;
+	}
+	
+	#image_submenu {
+	  margin-left:0px !important;
+	}
+	#nom_submenu {
+	  left:40px !important;
+	}
+	
+	#menulateral {
+	  display:none;
+	}
+	
+	#menumovil { 
+	  margin-left:10px !important;  
+	}
+	
+	#optusuarios {
+	 display:block !important;
+	}
+	
+	#pc {
+	 display:none !important;
+	}
+	
+	#tdpindex {
+	width:40% !important;
+	 
+	}
+	#pagina{
+	 left:0% !important;
+	 width:100% !important;
+	 
+	}
+	#frmBusqueda{
+	 left:0% !important;
+	 width:90% !important;
+	}
+	
+	#detalle{
+	 left:0% !important;
+	 width:90% !important;
+	}
+	#frmResultado{
+	 left:0% !important;
+	 width:100% !important;
+	}
+	#Table1{
+	width:100% !important;
+	}
+	
+	
+	.textMediano{
+	width:100% !important;
+	  
+	}
+	
+	.textPequeno{
+	width:50% !important;
+	  
+	}
+	
+	#forma_pago {
+	width:158px !important;
+	  
+	}
+	#labelfpago {
+	 padding-left:148px;
+	 padding-right:40px;	  
+	}
+    #labelfpagop {
+	padding-left:148px;
+	padding-right:40px;
+	  
+	}
+	
+	#busquedamovil{
+	 display:block !important;
+	}
+	#botonBusqueda{
+	 display:none !important;
+	}
+	
+	
+	
+	
+
+}
+
+ 
+ 
