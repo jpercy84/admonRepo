@@ -1,7 +1,7 @@
 <?php
 
 class UserData {
-	public static $tablename = "BAQ_LOGINS";
+	public static $tablename = "baq_logins";
 
 
 	public function UserData(){
