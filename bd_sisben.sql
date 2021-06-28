@@ -86,17 +86,17 @@ insert  into baq_usuarios values
 #----------------------------
 CREATE TABLE `solicitud_sisben` (
   `id_solicitud` bigint(20) NOT NULL AUTO_INCREMENT,
-  `radicado` varchar(20) NOT NULL,
-  `documento` varchar(100) NOT NULL,
-  `primer_nombre` varchar(100) NOT NULL,
-  `segundo_nombre` varchar(100) NOT NULL,
-  `primer_apellido` varchar(100) NOT NULL,
-  `segundo_apellido` varchar(100) NOT NULL,
-  `tipo_tramite` varchar(50) NOT NULL,
-  `estado_tramite` varchar(20) NOT NULL,
-  `observaciones` varchar(250) NOT NULL,
+  `radicado` varchar(20) DEFAULT NULL,
+  `documento` varchar(100) DEFAULT NULL,
+  `primer_nombre` varchar(100) DEFAULT NULL,
+  `segundo_nombre` varchar(100) DEFAULT NULL,
+  `primer_apellido` varchar(100) DEFAULT NULL,
+  `segundo_apellido` varchar(100) DEFAULT NULL,
+  `tipo_tramite` varchar(50) DEFAULT NULL,
+  `estado_tramite` varchar(20) DEFAULT NULL,
+  `observaciones` varchar(250) DEFAULT NULL,
   PRIMARY KEY (`id_solicitud`)
-) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 #----------------------------
 # No records for table solicitud_sisben
 #----------------------------
