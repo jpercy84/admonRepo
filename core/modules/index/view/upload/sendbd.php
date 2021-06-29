@@ -91,7 +91,5 @@ foreach ($reader->getSheetIterator() as $sheet) {
 
 $reader->close();
 unlink('core/modules/index/action/_upload/descargas/'.$archivo);
-//echo 'fdfdf';
 
-//var_dump($data);
 ?>
