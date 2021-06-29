@@ -1,11 +1,3 @@
-/*
-MySQL Backup
-Source Host:           localhost
-Source Server Version: 5.5.5-10.3.16-MariaDB
-Source Database:       bd_sisben
-Date:                  2021/06/23 08:49:39
-*/
-
 SET FOREIGN_KEY_CHECKS=0;
 use bd_sisben;
 #----------------------------
